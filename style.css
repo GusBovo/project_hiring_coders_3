@@ -1,3 +1,9 @@
 .logo{
-    size: 10em 5em;
+    height: auto;
+    width: 150px; 
+}
+
+.seta{
+    height: auto;
+    width: 40px;
 }
