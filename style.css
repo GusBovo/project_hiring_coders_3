@@ -6,17 +6,27 @@
     color: #106a85;
 }
 
+.container{
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.container .name h5{
+    font-size: 22px;
+    font-weight: 600;
+    font-style: bold;
+}
+
 ul{
     list-style: none;
 }
 
 #menu {
     font-size: 18px;
-    font-weight: 600;
-}
-
-.container .name h1{
-    font-size: 55px;
     font-weight: 600;
 }
 
