@@ -34,8 +34,8 @@
                 <h5>Hiring Coders Student</h5>
             </div>
 
-            <div>
-                <img class="seta" src="./images/circle-down-solid.svg" alt="Seta para baixo clicável">
+            <div onclick="displayAbout()">
+                <img id="animation" class="seta" class="rotate" src="./images/angle-down-solid.svg" alt="Seta para baixo clicável">
             </div>
 
             <div>
@@ -58,5 +58,13 @@
             <div class="footer">
             </div>
         </footer>
+
+        <script>
+            function displayAbout(){
+                let seta = document.getElementById('animation');
+                seta.classList.toggle('rotate');
+                
+            }
+        </script>
     </body>
 </html>
