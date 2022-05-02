@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+body {
+    background: url(./images/pexels-stein-egil-liland-6321144.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 .logo{
     height: auto;
     width: 150px; 
