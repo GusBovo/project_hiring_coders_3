@@ -11,6 +11,36 @@ body {
     background-size: cover;
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 1.5em;
+    border-bottom: 2px solid #ffffff;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #364f6b;
+}
+
+header div img {
+    margin-right: 40em;
+}
+
+header ul{
+    display: flex;
+    padding-right: 10em;
+}
+
+header ul li{
+    padding: 6px;
+    border-left: 1px dashed #364f6b;
+}
+
+header ul li:last-child{
+    border-right: 1px dashed #364f6b;
+}
+
 .container{
     text-align: center;
 }
@@ -33,6 +63,13 @@ ul{
 #menu {
     font-size: 18px;
     font-weight: 600;
+    color: #364f6b;
+}
+
+#menu:hover{
+    color: #fff;
+    background-color: #364f6b;
+    border-radius: 5px;
 }
 
 p {
@@ -54,11 +91,12 @@ a {
 
 .form{
     width: 40%;
+    margin: 0 auto;
 }
 
 .form button,
 .form input {
-    color: #106a85;
+    color: #364f6b;
 }
 
 .form input{
@@ -69,9 +107,17 @@ a {
     width: 15%;
 }
 
+.form button:hover{
+    color: #ffffff;
+    background-color: #364f6b;
+    border-color: #364f6b;
+    border-radius: 5px;
+}
+
 .logo{
     height: auto;
-    width: 150px; 
+    width: 150px;
+    margin-top: 3px;
 }
 
 .seta{
