@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
-    color: #106a85;
+    color: #ffffff;
+}
+
+body {
+    background: url(./images/pexels-stein-egil-liland-6321144.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container{
@@ -38,13 +43,30 @@ p {
     font-style: italic;
 }
 
+.container div .textoCorpo{
+    max-width: 30em;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
 
-body {
-    background: url(./images/pexels-stein-egil-liland-6321144.jpg) no-repeat center center fixed;
-    background-size: cover;
+.form{
+    width: 40%;
+}
+
+.form button,
+.form input {
+    color: #106a85;
+}
+
+.form input{
+    width: 40%;
+}
+
+.form button{
+    width: 15%;
 }
 
 .logo{
