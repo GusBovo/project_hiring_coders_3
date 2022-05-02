@@ -39,7 +39,7 @@
             </div>
 
             <div>
-               <p class="textoCorpo">
+               <p id="corpo" class="textoCorpo">
                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, molestiae officiis 
                 odit explicabo obcaecati ipsam quis numquam dolorem nobis doloremque, itaque dolores 
                 accusantium minima eaque earum, quam voluptates maxime sunt?
@@ -62,8 +62,9 @@
         <script>
             function displayAbout(){
                 let seta = document.getElementById('animation');
+                let texto = document.getElementById('corpo');
                 seta.classList.toggle('rotate');
-                
+                texto.classList.toggle('textoDisplay')
             }
         </script>
     </body>

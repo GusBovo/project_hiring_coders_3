@@ -70,13 +70,15 @@ p {
     font-size: 16px;
 }
 
-.textoCorpo {
-    font-style: italic;
-}
-
-.container div .textoCorpo{
+.textoCorpo{
     max-width: 30em;
     margin: 0 auto;
+    font-style: italic;
+    display: none;
+}
+
+.textoDisplay {
+    display: block;
 }
 
 a {
@@ -154,4 +156,26 @@ a {
 footer{
     height: 100px;
     width: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+
+    }
+    
+    header ul {
+
+    }
+
+    header ul li {
+        
+    }
+
+    .container .name h1 {
+
+    }
+    
+    .container .name h5 {
+
+    }
 }
