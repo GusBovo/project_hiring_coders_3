@@ -15,12 +15,19 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
     margin: 1.5em;
     border-bottom: 2px solid #ffffff;
     border-radius: 7px;
     background-color: #fff;
     color: #364f6b;
+}
+
+#menuIcon{
+    display: none;
+}
+
+#dropdown{
+    display: none;
 }
 
 header ul{
@@ -160,22 +167,66 @@ footer{
 
 @media only screen and (max-width: 480px) {
     header {
-
+        margin: .5em;
+        margin-top: 1em;
+        height: 65px;
     }
     
     header ul {
+        display: none;
 
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+        height: auto;
+        width: 20px;
+        filter: invert(27%) sepia(44%) saturate(493%) hue-rotate(171deg) brightness(91%) contrast(89%);
+    }
+
+    #menuIcon:hover {
+        cursor: pointer;
+    }
+
+    #closeIcon {
+        height: auto;
+        width: 20px;
+        rotate: 270deg;
+        filter: invert(27%) sepia(44%) saturate(493%) hue-rotate(171deg) brightness(91%) contrast(89%);
     }
 
     header ul li {
-        
+        border: none;
     }
 
-    .container .name h1 {
-
+    header ul li:last-child {
+        border: none;
     }
-    
-    .container .name h5 {
 
+    .textoCorpo{
+        max-width: 75%;
+    }
+
+    .logo {
+        width: 6.5em;
+        margin-right: 8.5em;
+    }
+
+    .form {
+        width: auto;
+        max-width: 95%;
+    }
+
+    .form button {
+        max-width: 15%;
+    }
+
+    .form input {
+        width: auto;
+        max-width: 45%;
     }
 }
