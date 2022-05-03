@@ -70,7 +70,6 @@ ul{
 
 #menu:hover{
     text-decoration: underline solid #364f6b;
-    border-radius: 5px;
 }
 
 p {
@@ -171,11 +170,6 @@ footer{
         margin-top: 1em;
         height: 65px;
     }
-    
-    header ul {
-        display: none;
-
-    }
 
     #menu {
         display: none;
@@ -186,6 +180,27 @@ footer{
         height: auto;
         width: 20px;
         filter: invert(27%) sepia(44%) saturate(493%) hue-rotate(171deg) brightness(91%) contrast(89%);
+    }
+
+    #dropdown{
+        display: none;
+    }
+
+    #listMob{
+        background-color: #fff;
+        height: 120px;
+        max-width: 90px;
+        margin-top: -50px;
+        margin-left: 300px;
+        border: 1px solid #364f6b;
+        border-radius: 7px;
+    }
+
+    #menuMob{
+        margin-left: 10px;
+        margin-top: 3px;
+        color: #364f6b;
+        display: grid;
     }
 
     #menuIcon:hover {
